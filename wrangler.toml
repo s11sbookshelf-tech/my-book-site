@@ -1,6 +1,7 @@
 name = "my-book-site"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".open-next"
 
 [[d1_databases]]
 binding = "DB"
@@ -10,6 +11,3 @@ database_id = "2fa59889-4f35-45cd-aac0-846445302640"
 [[r2_buckets]]
 binding = "BOOK_COVERS"
 bucket_name = "book-covers"
-
-[build]
-command = "npm run build"
